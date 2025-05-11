@@ -1,0 +1,268 @@
+/********* CSS RESETS **********/
+
+img {
+	max-width:100%;
+}
+
+h1, h2, h3, p, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul, nav ol {
+	list-style-type: none;
+}
+
+/********* End CSS Reset *********/
+
+/*********Quote Images**********/
+
+.quote-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.quote-images img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/********Zip Code Form button*******/
+
+.zip-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.zip-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 180px;
+  border: none;
+  border-radius: 4px;
+}
+
+.zip-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #DE3A8F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.zip-form button:hover {
+  background-color: #c02b74;
+}
+
+/********Main Info*******/
+
+body {
+  background-image: url(assets/graphics/webb-dark.png);
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+a:link, a:visited {
+    color: #ed2d2d; 
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ccc; 
+    text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  }
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+#home img {
+	margin-bottom: 40px;
+}
+
+#home {
+	margin-bottom: 40px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  font-family: 'Luckiest Guy';
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Luckiest Guy';
+  	text-align: center;
+  	color: white;
+	font-size: 1.2rem;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-family: 'Lora', serif;
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+#container {
+  font-family: 'Lora', serif;
+  color: white;
+  background-color: #ccc;
+  margin: 20px; /* adds visible space on top/sides */
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+#container h2 {
+  font-family: 'Luckiest Guy';
+  text-align: center;
+  color: white;
+}
+
+
+/*******Navigation Styles*******/
+
+#navigation {
+	position: relative;
+}
+
+#mobilenav {
+	background: #000;
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+#mobilenav h2 {
+	text-align: right;
+	line-height: 50px;
+	color: white;
+	font-size: 32px;
+}
+
+#mainnav {
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	border-top: 1px solid #ccc;
+}
+
+#mainnav ul {
+	background: #000;
+}
+
+#mainnav ul li a {
+	display:block;
+	background:#000;
+	color: white;
+	font-weight:700;
+	font-size:32px;
+	line-height:50px;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:right;
+	padding-right: 20px;
+	width:180px;
+	border-bottom: 1px solid #000;
+}
+
+#mainnav ul li a:hover {
+	background:#40606f;
+}
+
+/*******Character Section********/
+
+.character-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.character-section img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/*******Socials Section******/
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.socials {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  margin: 30px 0 20px;
+  font-size: 1.5rem;
+}
+
+#socials h3 {
+	margin-top: 20px;
+}
+
+#socials h2 {
+	margin-bottom: 40px;
+}
+
+#socials {
+	margin-bottom: 60px;
+}
+
+/*******Footer******/
+
+footer {
+  text-align: left;
+  padding: 20px;
+  background-color: #c95013;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer h4 {
+	font-size: 1.5rem;
+}
+
+
+
+
+
